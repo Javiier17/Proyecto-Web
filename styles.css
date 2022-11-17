@@ -9,6 +9,7 @@ body{background-image: url(https://th.bing.com/th/id/OIP.4v3UCg-5heVwvSoND6a-HAH
      border-top: none; 
      padding-bottom: 10px; 
      text-align: center;
+     background-color: rgba(0, 255, 255, 0.123)
 }
 
 .Tattoos {padding-right: 20px; 
@@ -28,10 +29,12 @@ h1 {color: rgb(102, 255, 230);
 }
 
 @media screen and (max-width: 767px){
-    h1{font-size:70px;};
+    h1{font-size:55px;};
 }
 
-h2{color: rgb(102, 255, 230) ;}
+h2{color: rgb(102, 255, 230) ;
+    padding-bottom: none;
+}
 
 a {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      color: rgb(38, 255, 219);
@@ -44,6 +47,7 @@ a {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 .Ini{
     text-align: center;
+    background-color: rgba(0, 255, 255, 0.226);
 }
 
 .vinicio{
@@ -62,7 +66,7 @@ a {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 #FP {background-color: rgba(0, 60, 62, 0.778);color: rgb(38, 255, 219);
      padding-left: 40px; 
      padding-right: 40px;
-     padding-bottom: 10px;
+     padding-bottom: 0px;
 }
 
 p {text-align: center;
@@ -76,6 +80,10 @@ p {text-align: center;
     font-size: 50px;
 }
 
+@media screen and (max-width: 767px){
+    .quees{font-size:40px;};
+}
+
 .img1 {width: 50%;  
           padding-top: 3px;
           padding-left: 3px;
@@ -86,13 +94,21 @@ p {text-align: center;
           text-align: center;
 }
 
+@media screen and (max-width: 767px){
+    .img1{width: 80%;};
+}
+
 #Proyectos {background-color:  rgba(0, 60, 62, 0.778);
 }
 
-.proyectotext {font-size: 40px; 
+.proyectotext {font-size: 30px; 
     padding-bottom: 20px; 
     text-align: center;
     color: white;
+}
+
+@media screen and (max-width: 767px){
+    .proyectotext {font-size:20px;};
 }
 
 
@@ -109,17 +125,21 @@ p {text-align: center;
 .back{ background-color: rgba(0, 0, 0, 0.637);
 }
 
-.links {padding-bottom: 20px;
+.links {padding-bottom: 30px;
     text-align: center;
+     background-color: rgba(0, 255, 255, 0.055);
 }
 
 
-.pro2{padding-bottom: 20px;
+.pro2{padding-bottom: 30px;
     text-align: center;
+    background-color: rgba(0, 255, 255, 0.055);
 }
 
-.pro3{padding-bottom: 20px;
-    text-align: center;}
+.pro3{padding-bottom: 30px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.055);
+}
 
 
     
