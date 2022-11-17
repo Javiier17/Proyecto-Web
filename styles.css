@@ -1,53 +1,128 @@
-body{background-image: url(https://th.bing.com/th/id/OIP.4v3UCg-5heVwvSoND6a-HAHaGv?pid=ImgDet&rs=1); border: 0px;
+body{background-image: url(https://th.bing.com/th/id/OIP.4v3UCg-5heVwvSoND6a-HAHaGv?pid=ImgDet&rs=1); 
+    border: 0px;
 }
 
-.Menu{background-color: rgba(0, 60, 62, 0.778);
+#Menu{background-color: rgba(0, 60, 62, 0.778);
 }
 
-.Deslice {padding-top: none; border-top: none; padding-bottom: 10px; text-align: center;
+.Deslice {padding-top: none;
+     border-top: none; 
+     padding-bottom: 10px; 
+     text-align: center;
 }
 
-.Tattoos {padding-right: 20px; color: white
+.Tattoos {padding-right: 20px; 
+    color: white
 }
 
 .Contactos {color: white;
 }
 
-h1 {color: rgb(102, 255, 230); margin: 5px; padding-top: 10px; border: none; position: relative; padding-bottom: none; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center;
+h1 {color: rgb(102, 255, 230); 
+    margin: 5px; padding-top: 10px; 
+    border: none; position: relative; 
+    padding-bottom: none; 
+    font-size: 100px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
 }
 
+@media screen and (max-width: 767px){
+    h1{font-size:70px;};
+}
 
+h2{color: rgb(102, 255, 230) ;}
 
 a {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: rgb(38, 255, 219); text-decoration: none; text-shadow: rgb(38, 255, 219);
+     color: rgb(38, 255, 219);
+     text-decoration: none; 
+     text-shadow: rgb(38, 255, 219);
+     font-size: 30px;
+     padding-bottom: 0px;
+     text-align: center;
 }
 
-.line {position: absolute; top: 105px;left: 25%;height: 3px; background-color: rgb(38, 255, 219);width: 50%;padding: none; border: none;
+.Ini{
+    text-align: center;
+}
+
+.vinicio{
+    color: aqua;
+}
+
+.line {position: absolute; 
+     top: 193px;left: 25%;
+     height: 6px; 
+     background-color: rgb(38, 255, 219);
+     width: 50%;
+     padding: none; 
+     border: none;
 }
 
 #FP {background-color: rgba(0, 60, 62, 0.778);color: rgb(38, 255, 219);
+     padding-left: 40px; 
+     padding-right: 40px;
+     padding-bottom: 10px;
 }
 
-p {text-align: center;color:white
+p {text-align: center;
+    color:white; 
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.13);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.quees {text-align: center; padding: 10px; font-size: 30px;
+.quees {text-align: center; 
+    padding-top: 10px; 
+    font-size: 50px;
 }
 
-.img1 {width: 50%; padding-left: 25%; padding-bottom: 10px;
+.img1 {width: 50%;  
+          padding-top: 3px;
+          padding-left: 3px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          background-color: rgba(0, 0, 0, 0.342);
+          align-items: center;
+          text-align: center;
 }
 
 #Proyectos {background-color:  rgba(0, 60, 62, 0.778);
 }
 
-.proyectotext {font-size: 20px; padding-bottom: 20px; padding-left: 5%;
+.proyectotext {font-size: 40px; 
+    padding-bottom: 20px; 
+    text-align: center;
+    color: white;
 }
 
-.links {padding-bottom: 10px;
+
+.line2{position: absolute; 
+    top: 950px;left: 25%;
+    height: 6px; 
+    background-color: rgb(38, 255, 219);
+    width: 50%;
+    padding: none; 
+    border: none;
 }
+
+
 .back{ background-color: rgba(0, 0, 0, 0.637);
 }
 
-.pro2{padding-bottom: 10px;
+.links {padding-bottom: 20px;
+    text-align: center;
 }
+
+
+.pro2{padding-bottom: 20px;
+    text-align: center;
+}
+
+.pro3{padding-bottom: 20px;
+    text-align: center;}
+
+
+    
+
 
 
